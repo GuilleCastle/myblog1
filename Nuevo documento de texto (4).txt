@@ -1,0 +1,4 @@
+http -j post http://127.0.0.1:8000/principal/grupo/ nombre=molestones descripcion=Como_molestan_xd 
+http GET http://127.0.0.1:8000/principal/grupo/ 
+
+http -j get http://127.0.0.1:8000/principal/tipo_telefonoseleccionar/1/
